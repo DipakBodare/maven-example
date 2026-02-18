@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DipakBodare_maven_example_1771406573187-push-trigger-input-set
+  identifier: Build_DipakBodare_maven_example_1771406573187pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: artifactorymavenexample
+  pipeline:
+    identifier: Build_DipakBodare_maven_example_1771406573187
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
